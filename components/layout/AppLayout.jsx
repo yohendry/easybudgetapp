@@ -1,5 +1,4 @@
 import React from 'react';
-import Head from 'next/head';
 import SidebarMenu from '../sidebar/Sidebar';
 import Logo from '../Logo';
 
