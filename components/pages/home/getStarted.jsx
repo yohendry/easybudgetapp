@@ -6,7 +6,7 @@ function getStarted({ variant = 'budget-green' }) {
   return (
     <button
       type="button"
-      className={`bg-${variant}-500 text-white rounded-full px-6 py-3 hover:bg-${variant}-800 shadow-lg
+      className={`bg-${variant}-700 text-white rounded-full px-6 py-3 hover:bg-${variant}-800 shadow-lg
     shadow-primary/50`}
       onClick={() => { router.push('/app'); }}
     >

@@ -40,12 +40,15 @@ function styleGuide() {
       <div className="bg-red-800" />
       <div className="bg-budget-purple-300" />
       <div className="bg-budget-purple-500" />
+      <div className="bg-budget-purple-700" />
       <div className="bg-budget-purple-800" />
       <div className="bg-budget-green-300" />
       <div className="bg-budget-green-500" />
+      <div className="bg-budget-green-700" />
       <div className="bg-budget-green-800" />
       <div className="bg-budget-blue-300" />
       <div className="bg-budget-blue-500" />
+      <div className="bg-budget-blue-700" />
       <div className="bg-budget-blue-800" />
       <div className="bg-budget-orange-300" />
       <div className="bg-budget-orange-500" />

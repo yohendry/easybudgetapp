@@ -7,8 +7,8 @@ function Logo({ className }) {
     <div className={`inline-flex ${className}`}>
       <Link href="/" passHref>
         <a className="inline-flex flex-row items-center text-3xl ">
-          <span className="text-budget-green-500 font-bold uppercase">EASY</span>
-          <span className="text-budget-green-300 font-bold uppercase">BUDGET</span>
+          <span className="text-budget-green-600 font-bold uppercase">EASY</span>
+          <span className="text-budget-green-500 font-bold uppercase">BUDGET</span>
         </a>
       </Link>
     </div>

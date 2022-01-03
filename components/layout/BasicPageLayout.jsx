@@ -25,9 +25,9 @@ function BasicPageLayout({ children }) {
       >
 
         <nav className="container mx-auto ">
-          <div className="flex justify-between items-center py-10 ">
+          <div className="flex justify-between items-center py-10 px-5 lg:px-0">
             <Logo className="" />
-            <ul className="hidden sm:flex space-x-8 font-medium text-sm">
+            <ul className="hidden md:flex space-x-8 font-medium text-sm">
               <li className="hover:text-budget-purple-800 text-gray-500">
                 <Link href="/#pricing" passHref>
                   <a href>Pricing</a>
@@ -52,9 +52,9 @@ function BasicPageLayout({ children }) {
             <GetStartedButton variant="budget-purple" />
           </div>
         </nav>
-        <section className="py-12 px-5 lg:px-0">
+        <main className="py-0 px-5 md:px-0 md:py-12">
           {children}
-        </section>
+        </main>
 
       </motion.div>
       <footer className="bg-budget-purple-800 text-gray-400 py-12 px-7 md:px-0">
@@ -125,7 +125,7 @@ function BasicPageLayout({ children }) {
               />
               <button
                 type="button"
-                className="text-center bg-budget-green-300 text-white text-sm rounded-full py-3 px-6 placeholder-gray-300 hover:bg-budget-green-500"
+                className="text-center bg-budget-green-500 text-budget-purple-800 text-sm rounded-full py-3 px-6 placeholder-gray-300 hover:bg-budget-green-700"
               >
                 Go
               </button>

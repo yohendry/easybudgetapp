@@ -79,8 +79,8 @@ export default function SidebarMenu() {
 
               <AccordionPanel pb={4} px={2}>
                 <div className="flex gap-4 flex-col mt-2">
-                  <SidebarItem label="Saving account" active={['/app/account/1'].includes(pathname)} href="/app/account/1" />
-                  <SidebarItem label="Wallet" active={['/app/account/2'].includes(pathname)} href="/app/account/2" />
+                  <SidebarItem label="Manage accounts" active={['/app/account/1'].includes(pathname)} href="/app/account/1" />
+                  <SidebarItem label="Manage accounts" active={['/app/account/2'].includes(pathname)} href="/app/account/2" />
                 </div>
 
               </AccordionPanel>

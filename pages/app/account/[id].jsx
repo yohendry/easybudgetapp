@@ -18,9 +18,9 @@ const accounts = [
 function Account({ user, account }) {
   return (
     <AppLayout user={user}>
-      <div className="flex flex-col gap-7 flex-grow">
+      <div className="flex flex-col gap-7 flex-1">
         <div className="rounded overflow-hidden shadow-sm bg-white p-6">
-          <div className="font-bold text-xl">
+          <div className="font-bold text-3xl">
             { account.name}
           </div>
           <div className="pt-4 flex gap-4">
@@ -40,10 +40,11 @@ function Account({ user, account }) {
           </div>
         </div>
         <div className="rounded overflow-hidden shadow-lg bg-white flex-1 p-6">
-          <div className="">
-            <div className="font-bold text-xl mb-2">
-              Transactions
-            </div>
+          <div className="font-bold text-xl mb-2">
+            Transactions
+          </div>
+          <div className="overflow-auto">
+
             <TransitionsTable />
           </div>
         </div>
